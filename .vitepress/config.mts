@@ -22,7 +22,12 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+      { icon: 'github', link: 'https://github.com/Coiggahou2002/' }
+    ],
+    
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2019-present Rory Cai',
+    }
   }
 })
