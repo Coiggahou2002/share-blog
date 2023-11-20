@@ -45,12 +45,6 @@ export default defineConfig({
             {
               text: '关于自学', link: '/guide/selftaught',
             },
-            {
-              text: '关于编程语言', link: '/guide/index',
-            },
-            {
-              text: '哈哈哈', link: '/guide/index',
-            },
           ]
         },
         {
