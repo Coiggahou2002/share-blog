@@ -1,0 +1,39 @@
+name: Rorycai-Blog Deploy Scripts
+on:
+  push:
+    branches: [ "master" ]
+
+jobs:
+  build-and-upload:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: 'master'
+      
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+      
+      - name: Install Deps and Build
+        run: |
+          npm install --legacy-peer-deps
+          npm run docs:build
+      
+      - name: Run a one-line script
+        run: echo "✅ Build"
+      
+      - name: Upload Output Pages
+        uses: appleboy/scp-action@v0.1.4
+        with:
+          host: ${{ secrets.DC_HOST }}
+          username: ${{ secrets.DC_USER }}
+          password: ${{ secrets.DC_PASS }}
+          source: "./.vitepress/dist/*"
+          target: /home/cj/rorycai-blog/
+
+      - name: Run a one-line script
+        run: echo "✅ Upload"
+      
