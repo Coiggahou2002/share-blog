@@ -1,85 +1,36 @@
-# Markdown Extension Examples
+# 我的个人说明书
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress.
+秋招终于结束了，算上实习马上工作一年了，回顾一下自己的大学四年经历
 
-## Syntax Highlighting
+## ️一、自我介绍
 
-VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
+- 哈尔滨工业大学 - Computer Science - 2024.06 毕业
 
-**Input**
+## 二、技术栈
 
-````
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-````
+语言：
+- JavaScript/TypeScript ⭐⭐⭐⭐
+- Golang ⭐⭐
+- Java ⭐⭐
 
-**Output**
+技术栈：
+- Web
+- React Native
+- NodeJS
 
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
+## 三、我的经历
 
-## Custom Containers
+### 实习 offer
+- 快手平台技术
+- 美团到店综合
+- 百度
+- 微信读书
 
-**Input**
+### 秋招 offer
+- 美团到店餐饮
+- 快手主站前端中心
+- 小红书社区
+- 米哈游基础研发平台
+- 腾讯 wxg
 
-```md
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-```
-
-**Output**
-
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-
-## More
-
-Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
+## 四、学习开发的日子
