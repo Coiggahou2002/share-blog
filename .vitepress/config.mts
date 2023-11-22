@@ -22,6 +22,7 @@ export default defineConfig({
           },
         ]
       },
+      { text: '学习资源', link: '/resource/index' },
       { text: '关于', link: '/about' },
     ],
 
