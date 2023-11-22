@@ -5,7 +5,6 @@ layout: home
 hero:
   name: "你好, 我是 Rory"
   image: "https://cjpark-1304138896.cos.ap-guangzhou.myqcloud.com/ava.png"
-  # text: "认知，观点，方法论"
   text: "欢迎来到我的博客"
   tagline: 分享认知、观点、方法论和干货
   actions:
