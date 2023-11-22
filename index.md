@@ -3,20 +3,22 @@
 layout: home
 
 hero:
-  name: "Rory 的自留地"
+  name: "你好, 我是 Rory"
   image: "https://cjpark-1304138896.cos.ap-guangzhou.myqcloud.com/ava.png"
-  text: "认知，观点，方法论"
-  tagline: 找个地方，留下点愚昧的文字和想法
+  # text: "认知，观点，方法论"
+  text: "欢迎来到我的博客"
+  tagline: 分享认知、观点、方法论和干货
   actions:
     - theme: brand
-      text: 开始探索
-      link: /markdown-examples
-    - theme: alt
       text: 了解我
-      link: /about
+      link: /about/me
+    - theme: alt
+      text: 关于本站
+      link: /about/site
 
 features:
   - title: 大学新生指南
+    link: /guide/index
     icon: 🎓
     details: 认知破局，自学方法，自我提升...
   - title: 计算机求职经验分享

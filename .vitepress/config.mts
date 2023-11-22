@@ -23,7 +23,19 @@ export default defineConfig({
         ]
       },
       { text: '学习资源', link: '/resource/index' },
-      { text: '关于', link: '/about' },
+      {
+        text: '关于',
+        items: [
+          {
+            text: '关于本站',
+            link: '/about/site'
+          },
+          {
+            text: '关于我',
+            link: '/about/me'
+          },
+        ],
+      },
     ],
 
     sidebar: {
