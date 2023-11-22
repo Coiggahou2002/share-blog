@@ -22,7 +22,15 @@ export default defineConfig({
           },
         ]
       },
-      { text: '学习资源', link: '/resource/index' },
+      {
+        text: '资源',
+        items: [
+          {
+            text: '学习资源',
+            link: '/resource/index'
+          },
+        ]
+      },
       {
         text: '关于',
         items: [
@@ -32,13 +40,28 @@ export default defineConfig({
           },
           {
             text: '关于我',
-            link: '/about/me'
+            link: '/about/me/index'
           },
         ],
       },
     ],
 
     sidebar: {
+      '/resource/': [
+        {
+          text: '学习资源',
+          link: '/resource/index'
+        },
+        {
+          text: '好玩的东西',
+          items: [
+            {
+              text: '写代码用什么字体比较帅?',
+              link: '/resource/code-fonts'
+            }
+          ]
+        },
+      ],
       '/fe/basics/': [
         {
           text: '移动端开发',
@@ -67,6 +90,16 @@ export default defineConfig({
               link: '/fe/solutions/cors',
             }
           ]
+        },
+      ],
+      '/about/me/': [
+        {
+          text: '我的个人说明书',
+          link: '/about/me/index'
+        },
+        {
+          text: '我的开发环境',
+          link: '/about/me/what-i-use'
         },
       ],
       '/guide/': [
