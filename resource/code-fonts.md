@@ -20,7 +20,7 @@ JB 家 IDE 官方标配字体
 
 ## Dank Mono
 
-![](https://cdn.nlark.com/yuque/0/2023/png/12613522/1691556444319-888d5529-c587-4a79-ae51-03331d366bca.png)
+![](https://cjpark-1304138896.cos.ap-guangzhou.myqcloud.com/note-img/202311270935278.png)
 
 [下载地址](https://github.com/cancng/fonts/blob/master/DankMono.zip)
 
@@ -32,7 +32,7 @@ JB 家 IDE 官方标配字体
 
 ## Operator Mono
 
-![](https://cdn.nlark.com/yuque/0/2023/png/12613522/1691556690747-6c5d60b9-74a5-4dbd-b86d-5eee69b18784.png)
+![](https://cjpark-1304138896.cos.ap-guangzhou.myqcloud.com/note-img/202311270935738.png)
 
 感觉像 Dank Mono 的升级版
 
