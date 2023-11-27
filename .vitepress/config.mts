@@ -50,7 +50,16 @@ export default defineConfig({
       '/resource/': [
         {
           text: '学习资源',
-          link: '/resource/index'
+          items: [
+            {
+              text: '一些大牛的博客',
+              link: '/resource/index',
+            },
+            {
+              text: '推荐的书籍',
+              link: '/resource/books',
+            },
+          ],
         },
         {
           text: '好玩的东西',
