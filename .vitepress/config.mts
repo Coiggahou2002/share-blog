@@ -119,16 +119,12 @@ export default defineConfig({
               link: '/guide/cs/language',
             },
             {
-              text: '数据结构练习题单',
-              link: '/guide/cs/data_structure_exercises',
-            },
-            {
-              text: '精品学习资源大全',
+              text: '数据结构和算法练习题单',
               link: '/guide/cs/data_structure_exercises',
             },
             {
               text: '没事儿可以折腾的东西',
-              link: '/guide/cs/data_structure_exercises',
+              link: '/guide/cs/things-to-explore',
             },
           ],
         },
@@ -146,7 +142,7 @@ export default defineConfig({
           items: [
             {
               text: '关于自学',
-              link: '/guide/selftaught',
+              link: '/guide/self-taught',
             },
           ],
         },
