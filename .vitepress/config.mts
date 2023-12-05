@@ -177,8 +177,8 @@ export default defineConfig({
     ],
 
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2019-present Rory Cai',
+      message: `<a href="https://beian.miit.gov.cn/">粤ICP备2023142031号</a>`,
+      copyright: 'Copyright © 2023-present @rorycai',
     },
   },
 });
