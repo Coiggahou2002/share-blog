@@ -18,6 +18,10 @@ export default defineConfig({
             link: '/fe/basics/index',
           },
           {
+            text: '代码片段',
+            link: '/fe/snippets/rn/template',
+          },
+          {
             text: '解决方案积累',
             link: '/fe/solutions/index',
           },
@@ -83,6 +87,41 @@ export default defineConfig({
             {
               text: '各种 Viewport',
               link: '/fe/basics/viewports',
+            }
+          ],
+        }
+      ],
+      '/fe/snippets/': [
+        {
+          text: 'React Native',
+          items: [
+            {
+              text: '基础模板',
+              link: '/fe/snippets/rn/template',
+            },
+            {
+              text: '动画',
+              link: '/fe/snippets/rn/animation',
+            },
+            {
+              text: '键盘',
+              link: '/fe/snippets/rn/keyboard',
+            },
+            {
+              text: '设备相关',
+              link: '/fe/snippets/rn/device',
+            },
+            {
+              text: '布局',
+            },
+            {
+              text: '组件',
+            },
+            {
+              text: '网络',
+            },
+            {
+              text: '其他',
             }
           ],
         }
