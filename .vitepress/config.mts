@@ -11,21 +11,29 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '大学新生指南', link: '/guide/index' },
       {
-        text: '前端开发',
+        text: '大前端',
         items: [
           {
             text: '基础知识',
             link: '/fe/basics/index',
           },
           {
-            text: '代码片段',
-            link: '/fe/snippets/rn/template',
+            text: 'Web',
+            link: '/fe/web/js/util',
+          },
+          {
+            text: 'React Native',
+            link: '/fe/app/rn/template',
           },
           {
             text: '解决方案积累',
             link: '/fe/solutions/index',
           },
         ]
+      },
+      {
+        text: '服务端',
+        link: '/svr/index',
       },
       {
         text: '资源',
@@ -91,37 +99,149 @@ export default defineConfig({
           ],
         }
       ],
-      '/fe/snippets/': [
+      '/fe/web/': [
+        {
+          text: 'Vue',
+          items: [
+            {
+              text: '响应式原理',
+              link: '/fe/web/vue/reactive',
+            }
+          ],
+        },
+        {
+          text: 'React',
+          link: '/fe/web/react',
+        },
+        {
+          text: '浏览器',
+          items: [
+            { text: '事件循环', link: '/fe/web/browser/event-loop' },
+          ]
+        },
+        {
+          text: 'JavaScript',
+          items: [
+            { text: '常用工具库', link: '/fe/web/js/util' },
+            { text: 'Promise', link: '/fe/web/js/promise' },
+            {
+              text: '箭头函数和普通函数有什么区别？',
+              link: '/fe/web/js/arrow-func-diff'
+            }
+          ]
+        },
+        {
+          text: 'TypeScript',
+          link: '/fe/web/ts',
+        },
+        {
+          text: '埋点上报',
+          items: [
+            {
+              text: '曝光检测',
+              link: '/fe/web/track/exposure'
+            }
+          ]
+        },
+        {
+          text: '兼容性话题',
+          link: '/fe/web/compatible'
+        },
+        {
+          text: 'UI / 动效',
+          link: '/fe/web/ui'
+        },
+        {
+          text: 'HTTP 协议',
+          link: '/fe/web/http'
+        },
+        {
+          text: '移动端',
+          link: '/fe/web/mobile'
+        },
+        {
+          text: '安全',
+          items: [
+            {
+              text: '跨域问题',
+              link: '/fe/web/safety/cors'
+            }
+          ]
+        },
+
+      ],
+      '/fe/app/': [
         {
           text: 'React Native',
           items: [
             {
               text: '基础模板',
-              link: '/fe/snippets/rn/template',
+              link: '/fe/app/rn/template',
             },
             {
-              text: '动画',
-              link: '/fe/snippets/rn/animation',
+              text: 'UI / 动效',
+              link: '/fe/app/rn/animation/index',
+              items: [
+                {
+                  text: '滑动卡片栈实现',
+                  link: '/fe/app/rn/animation/card-stack-swiper-impl.md'
+                },
+                {
+                  text: '投影的实现',
+                  link: '/fe/app/rn/animation/shadow-impl.md'
+                }
+              ]
             },
             {
               text: '键盘',
-              link: '/fe/snippets/rn/keyboard',
+              link: '/fe/app/rn/keyboard',
             },
             {
               text: '设备相关',
-              link: '/fe/snippets/rn/device',
+              link: '/fe/app/rn/device',
+            },
+            {
+              text: '长列表',
+              link: '/fe/app/rn/list',
+            },
+            {
+              text: '颜色',
+              link: '/fe/app/rn/color',
+            },
+            {
+              text: '调试',
+              link: '/fe/app/rn/debugging',
+            },
+            {
+              text: '原生开发知识',
+              link: '/fe/app/rn/native',
             },
             {
               text: '布局',
+              link: '/fe/app/rn/layout',
             },
             {
               text: '组件',
+              link: '/fe/app/rn/components',
             },
             {
               text: '网络',
             },
             {
               text: '其他',
+            }
+          ],
+        },
+        {
+          text: 'iOS',
+          items: [
+            {
+              text: 'Objective-C',
+              link: '/fe/app/ios/objectivec',
+            },
+            {
+              text: 'Xcode',
+              link: '/fe/app/ios/xcode',
             }
           ],
         }
@@ -208,6 +328,19 @@ export default defineConfig({
             },
           ],
         },
+        {
+          text: '编程技巧',
+          items: [
+            {
+              text: '开通一个 Copilot',
+              link: '/guide/copilot',
+            },
+            {
+              text: '用好你的 VS Code',
+              link: '/guide/vscode',
+            },
+          ]
+        }
       ],
     },
 
