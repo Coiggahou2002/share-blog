@@ -120,6 +120,13 @@ export default defineConfig({
           ]
         },
         {
+          text: '排版布局',
+          items: [
+            { text: 'CSS 实现指定宽高比图片', link: '/fe/web/layout/css-aspect-ratio-img' },
+            { text: '如何画一条一像素的线', link: '/fe/web/layout/css-one-pixel-border' },
+          ]
+        },
+        {
           text: 'JavaScript',
           items: [
             { text: '常用工具库', link: '/fe/web/js/util' },
