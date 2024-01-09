@@ -25,10 +25,6 @@ export default defineConfig({
             text: 'React Native',
             link: '/fe/app/rn/template',
           },
-          {
-            text: '解决方案积累',
-            link: '/fe/solutions/index',
-          },
         ]
       },
       {
@@ -131,6 +127,7 @@ export default defineConfig({
           items: [
             { text: '常用工具库', link: '/fe/web/js/util' },
             { text: 'Promise', link: '/fe/web/js/promise' },
+            { text: '复制粘贴这件事', link: '/fe/web/js/copy-paste' },
             {
               text: '箭头函数和普通函数有什么区别？',
               link: '/fe/web/js/arrow-func-diff'
@@ -164,7 +161,11 @@ export default defineConfig({
         },
         {
           text: '移动端',
-          link: '/fe/web/mobile'
+          items: [
+            { text: '滚动穿透', link: '/fe/web/mobile/scroll-penetrating' },
+            { text: '适配问题', link: '/fe/web/mobile/dpr-adaptation' },
+            { text: '如何检测键盘弹起', link: '/fe/web/mobile/h5-keyboard-detect' },
+          ],
         },
         {
           text: '安全',
@@ -252,21 +253,6 @@ export default defineConfig({
             }
           ],
         }
-      ],
-      '/fe/solutions/': [
-        {
-          text: 'Web',
-          items: [
-            {
-              text: 'H5 中检测键盘弹起',
-              link: '/fe/solutions/h5-keyboard-detect',
-            },
-            {
-              text: '经典跨域问题解决方案',
-              link: '/fe/solutions/cors',
-            }
-          ]
-        },
       ],
       '/about/me/': [
         {
