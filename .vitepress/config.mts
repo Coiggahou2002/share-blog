@@ -113,6 +113,7 @@ export default defineConfig({
           text: '浏览器',
           items: [
             { text: '事件循环', link: '/fe/web/browser/event-loop' },
+            { text: 'Safari 的各种坑', link: '/fe/web/browser/safari-shits' },
           ]
         },
         {
