@@ -244,7 +244,7 @@ border: 1px solid #000;
 
 ## 封装
 
-补上圆角、方向、颜色等属性，我们将这个能力用 sass mixin 的方式封装成可复用的片段
+补上圆角、方向、颜色等属性，我们将这个能力用 [sass mixin](https://sass-lang.com/documentation/at-rules/mixin/) 的方式封装成可复用的片段
 
 :::info
 - 圆角其实很好处理，如果需要 12px 的圆角，3 倍屏的时候就设成 36px 然后再 scale 回到 1/3 就是 12px，2 倍屏同理
