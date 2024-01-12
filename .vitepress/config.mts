@@ -18,6 +18,10 @@ export default defineConfig({
             link: '/fe/basics/index',
           },
           {
+            text: '数据结构',
+            link: '/fe/data-structure/index',
+          },
+          {
             text: 'Web',
             link: '/fe/web/js/util',
           },
@@ -29,7 +33,12 @@ export default defineConfig({
       },
       {
         text: '服务端',
-        link: '/svr/index',
+        items: [
+          { text: 'Golang', link: '/svr/golang/index' },
+          { text: '数据库', link: '/svr/db/redis' },
+          { text: '消息队列', link: '/svr/mq/pulsar' },
+          { text: '云原生', link: '/svr/cloud/index' },
+        ]
       },
       {
         text: '资源',
@@ -95,6 +104,12 @@ export default defineConfig({
           ],
         }
       ],
+      '/fe/data-structure/': [
+        {
+          text: '多叉树',
+          link: '/fe/data-structure/multi-way-tree',
+        }
+      ],
       '/fe/web/': [
         {
           text: 'Vue',
@@ -108,6 +123,9 @@ export default defineConfig({
         {
           text: 'React',
           link: '/fe/web/react',
+          items: [
+            { text: 'ContextProvider 之间时序的控制', link: '/fe/web/react/context-provider-order' },
+          ]
         },
         {
           text: '浏览器',
@@ -336,6 +354,22 @@ export default defineConfig({
           ]
         }
       ],
+      '/svr/db/': [
+        {
+          text: 'Redis',
+          link: '/svr/db/redis'
+        },
+        {
+          text: 'MongoDB',
+          link: '/svr/db/mongodb'
+        },
+      ],
+      '/svr/mq/': [
+        {
+          text: 'Pulsar',
+          link: '/svr/mq/pulsar'
+        },
+      ]
     },
 
     socialLinks: [
