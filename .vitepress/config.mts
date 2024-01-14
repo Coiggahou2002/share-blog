@@ -122,8 +122,9 @@ export default defineConfig({
         },
         {
           text: 'React',
-          link: '/fe/web/react',
+          link: '/fe/web/react/hooks',
           items: [
+            { text: 'Hooks 原理', link: '/fe/web/react/hooks' },
             { text: 'ContextProvider 之间时序的控制', link: '/fe/web/react/context-provider-order' },
           ]
         },
