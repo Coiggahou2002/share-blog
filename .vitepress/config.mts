@@ -29,6 +29,10 @@ export default defineConfig({
             text: 'React Native',
             link: '/fe/app/rn/template',
           },
+          {
+            text: '工具',
+            link: '/fe/tools/git/commands',
+          },
         ]
       },
       {
@@ -273,6 +277,35 @@ export default defineConfig({
             }
           ],
         }
+      ],
+      '/fe/tools': [
+        {
+          text: 'Git',
+          items: [
+            {
+              text: 'Git 常用命令',
+              link: '/fe/tools/git/commands',
+            },
+          ],
+        },
+        {
+          text: 'IDEs',
+          items: [
+            {
+              text: 'VS Code',
+              link: '/fe/tools/ide/vscode',
+            },
+            {
+              text: 'WebStorm',
+              link: '/fe/tools/ide/webstorm',
+            },
+            {
+              text: 'Xcode',
+              link: '/fe/tools/ide/xcode',
+            },
+          ],
+        },
+
       ],
       '/about/me/': [
         {
