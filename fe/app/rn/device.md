@@ -22,7 +22,7 @@ const isDark = colorScheme === 'dark';
 
 ## 关于安全区
 
-
+![](https://cjpark-1304138896.cos.ap-guangzhou.myqcloud.com/blog_img/202401221938533.png)
 
 手机的上方可能会有：
 - 状态栏 StatusBar

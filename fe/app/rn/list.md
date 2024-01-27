@@ -2,10 +2,21 @@
 
 ## 组件
 
-- ScrollView
-- VirtualizedList
-- FlatList
-- SectionList
+### ScrollView
+- 没有虚拟列表机制
+
+### VirtualizedList
+- 是 FlatList 和 SectionList 的底层实现
+
+### FlatList
+- 支持 scrollToOffset, scrollToItem, scrollToIndex 多种定位方式
+
+### SectionList
+- 仅支持 scrollToLocation 定位（sectionIndex + itemIndex）
+
+:::tip
+其实 SectionList 也支持 scrollToOffset，只要将 sectionIndex 和 itemIndex 都给 0，然后把 offset 全加在 viewOffset 上面就可以了
+:::
 
 ## 一个列表视图可能涉及的话题
 
